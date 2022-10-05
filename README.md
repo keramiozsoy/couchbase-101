@@ -62,4 +62,10 @@ touch tempdata.json
 
 docker cp tempdata.json couchbase-db:/tmp
 
+docker exec -it couchbase-db /bin/bash
+
+cd /tmp
+
+cbimport json -c couchbase://127.0.0.1 -u admin -p 123123 -b couch-bucket -f sample -d file://tempdata.json -t 2
+
 ```
