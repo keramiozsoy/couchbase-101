@@ -6,8 +6,10 @@
 
 - https://docs.couchbase.com/server/current/install/get-started.html
 
-I would like to choice docker :)
+I would like to choose docker :)
+
+- https://docs.couchbase.com/server/current/install/getting-started-docker.html
 
 `
-docker pull couchbase
+docker run -d --name couchbase-db -p 8091-8096:8091-8096 -p 11210-11211:11210-11211 couchbase
 `
