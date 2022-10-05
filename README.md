@@ -6,7 +6,7 @@
 
 - https://docs.couchbase.com/server/current/install/get-started.html
 
-I would like to choose docker :)
+## Install Cluster with Docker
 
 - https://docs.couchbase.com/server/current/install/getting-started-docker.html
 
@@ -28,4 +28,19 @@ password -> 123123
 
 next and finish with defaults
 
+```
+
+## Create Bucket 
+
+Click Buckets section on left side.
+
+Click Add Bucket button on top-right side.
+```
+name -> couch-bucket
+bucket type -> couchbase 
+memory quota -> 512
+
+* This is simple example, we're not going to care of detail on advanced section.
+
+add bucket
 ```
