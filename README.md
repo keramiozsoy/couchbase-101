@@ -10,7 +10,8 @@ I would like to choose docker :)
 
 - https://docs.couchbase.com/server/current/install/getting-started-docker.html
 
-`
+```
+
 docker run -d --name couchbase-db -p 8091-8096:8091-8096 -p 11210-11211:11210-11211 couchbase
 
 docker logs couchbase-db
@@ -27,4 +28,4 @@ password -> 123123
 
 next and finish
 
-`
+```
