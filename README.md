@@ -44,3 +44,11 @@ memory quota -> 512
 
 add bucket
 ```
+
+## Import Document
+
+We're going to use tool that helps to import data.
+
+- https://docs.couchbase.com/server/current/tools/cbimport-json.html
+
+```
