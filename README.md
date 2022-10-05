@@ -26,6 +26,6 @@ admin username -> admin
 
 password -> 123123
 
-next and finish
+next and finish with defaults
 
 ```
