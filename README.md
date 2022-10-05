@@ -52,3 +52,14 @@ We're going to use tool that helps to import data.
 - https://docs.couchbase.com/server/current/tools/cbimport-json.html
 
 ```
+
+touch tempdata.json 
+
+{"key": "mykey1", "value": "myvalue1"}
+{"key": "mykey2", "value": "myvalue2"}
+{"key": "mykey3", "value": "myvalue3"}
+{"key": "mykey4", "value": "myvalue4"}
+
+docker cp tempdata.json couchbase-db:/tmp
+
+```
