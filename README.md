@@ -25,7 +25,17 @@ admin username -> Administrator
 
 password -> password
 
-next and finish with defaults
+Configure Disk, Memory, Services (click)
+
+      Data (enable and set): 768mb
+
+      Query (enable, no memory setting)
+
+      Index (enable and set): 256mb
+
+      Search (enable and set): 256mb
+
+next and finish
 
 ```
 
