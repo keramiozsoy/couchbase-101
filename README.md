@@ -1,7 +1,6 @@
 # couchbase-101
 
 
-
 ## Install Options
 
 - https://docs.couchbase.com/server/current/install/get-started.html
@@ -83,3 +82,8 @@ cd /tmp
 cbimport json --format list -c http://localhost:8091 -u admin -p 123123 -d 'file://tempdata.json' -b 'couch-bucket' --scope-collection-exp "_default._default" -g "#UUID#" 
 
 ```
+
+
+## Resources
+
+http://e-learning-labs.s3-website-us-west-2.amazonaws.com/cb130j-lab-instructions/
