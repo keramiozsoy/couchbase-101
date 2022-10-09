@@ -19,11 +19,11 @@ open http://localhost:8091
 
 setup new cluster
 
-cluster name -> couchbase-training
+cluster name -> couchbase-training-cluster
 
-admin username -> admin
+admin username -> Administrator
 
-password -> 123123
+password -> password
 
 next and finish with defaults
 
