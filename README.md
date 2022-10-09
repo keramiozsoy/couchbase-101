@@ -35,7 +35,7 @@ Configure Disk, Memory, Services (click)
 
       Search (enable and set): 256mb
 
-next and finish
+save and finish
 
 ```
 
